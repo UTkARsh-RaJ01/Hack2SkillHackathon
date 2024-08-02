@@ -25,7 +25,7 @@ user_input = st.text_input(translate_text("Enter city:", dest_language), "")
 
 if user_input:
 
-    api_key = '30d4741c779ba94c470ca1f63045390a'
+    api_key = 'YOUR_OWN_API_KEY'
 
   
     weather_data = requests.get(
