@@ -1,0 +1,75 @@
+# Centralized Farming Solutions Platform
+
+## Overview
+This document outlines the features and components of a centralized website/application designed to address various needs and challenges faced by farmers. The platform integrates multiple functionalities to support farmers in managing their crops, irrigation, disease prevention, and more.
+
+## Features
+
+### 1. Government Schemes
+- **Description:** A comprehensive list of all government schemes available for farmers.
+- **Functionality:** Links to official government pages providing detailed information about each scheme.
+
+### 2. Crop and Farming Database
+- **Description:** A detailed database encompassing information on crops, farming methods, diseases, and seasonal practices.
+- **Content:** Includes general descriptions and guidelines for each category.
+
+### 3. Irrigation Notifications
+- **Description:** Automated notifications for irrigation based on crop requirements and weather conditions.
+- **Functionality:** Provides timely reminders for optimal irrigation.
+
+### 4. Multi-Language API-Based Chatbot
+- **Description:** A simple chatbot capable of processing both written and voice inputs in multiple languages.
+- **API:** Google API for translation.
+- **Status:** Currently non-functional due to exhaustion of free quota for ChatGPT API.
+
+### 5. Language Support
+- **Description:** Ability to change the website language for improved communication and understanding.
+- **Functionality:** Enhanced user experience through multilingual support.
+
+### 6. Soil Prediction Model
+- **Description:** A Convolutional Neural Network (CNN) based model for recommending crops based on soil conditions.
+- **Accuracy:** 97%
+- **Dataset Used:** [Soil Image Dataset](https://www.kaggle.com/datasets/jayaprakashpondy/soil-image-dataset)
+
+### 7. Real-Time Weather Access
+- **Description:** Integration with Arduino sensors to provide real-time data on soil moisture, temperature, and humidity.
+- **Sensors:** Connected to soil and temperature sensors.
+- **API:** Weather API for surrounding temperature and humidity data.
+
+### 8. Plant Disease Prediction Model
+- **Description:** A CNN-based model for predicting plant diseases with recommendations for prevention and treatment.
+- **Accuracy:** 98%
+- **Dataset Used:** [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+
+### 9. Minimum Support Price (MSP) Rates
+- **Description:** Up-to-date information on MSP rates for various crops.
+- **Functionality:** Provides current rates to aid farmers in financial planning.
+
+### 10. Supply Chain Management
+- **Description:** Notifications about government tenders for crop procurement.
+- **Functionality:** Alerts farmers to tender releases and procurement opportunities.
+
+### 11. Crop Insurance Schemes
+- **Description:** Links to crop insurance schemes offered by the government.
+- **Functionality:** Provides information on available insurance options.
+
+## Technical Implementation
+
+### Data Sources
+- **Soil Dataset:** [Kaggle Soil Image Dataset](https://www.kaggle.com/datasets/jayaprakashpondy/soil-image-dataset)
+- **Plant Diseases Dataset:** [Kaggle New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+- **Database Creation:** Database of crop data created using prompt engineering techniques.
+
+### APIs and Tools
+- **Translation API:** Google API for language translation.
+- **Weather API:** Used for real-time temperature and humidity data.
+- **ChatGPT API:** Required for chatbot responses (currently non-functional).
+
+### Model Information
+- **Soil Prediction Model:** Convolutional Neural Network (CNN) with 97% accuracy.
+- **Plant Disease Prediction Model:** Convolutional Neural Network (CNN) with 98% accuracy.
+- **Model Weight Files:** Provided for both CNN models.
+
+## Notes
+- All datasets and models were used for demonstration purposes.
+- The chatbot functionality is currently limited due to API quota restrictions.
