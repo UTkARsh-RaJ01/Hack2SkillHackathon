@@ -4,7 +4,7 @@ import requests
 import speech_recognition as sr
 
 
-API_KEY = 'sk-proj-V3gbpuYrEmPQlMX78OtJT3BlbkFJvUvrnGtUmqiUi1MKIcdo' 
+API_KEY = 'YOUR_OWN_API_KEY' 
 API_URL = 'https://api.openai.com/v1/chat/completions'
 
 def get_chatgpt_response(prompt):
