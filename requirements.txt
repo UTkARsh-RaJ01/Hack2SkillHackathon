@@ -1,1 +1,9 @@
+joblib==1.2.0
+pillow
+SpeechRecognition
+requests
 googletrans==4.0.0-rc1
+streamlit
+tensorflow
+
+
